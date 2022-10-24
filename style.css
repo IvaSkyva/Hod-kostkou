@@ -1,0 +1,45 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+
+
+#hrakostky {
+    background-image: radial-gradient(#ffdab9, #fff8dc);
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+        }
+    #zprava {
+        text-align: center;
+        color: brown;
+        }
+    .tlacitko {
+       padding: 10px;  
+    }
+
+    #kostka {
+      position: absolute;
+      left: 40%;
+      width: 25%;
+      animation: spin 4s;
+    }
+        
+    @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+    }
+        
+    
