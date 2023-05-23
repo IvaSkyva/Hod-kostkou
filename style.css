@@ -11,14 +11,16 @@ body {
 
 
 #hrakostky {
-    background-image: radial-gradient(#ffdab9, #fff8dc);
+    
     padding: 10px;
-    margin: 30px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
         }
     #zprava {
+        display: none;
         text-align: center;
         color: brown;
         }
@@ -27,12 +29,14 @@ body {
     }
 
     #kostka {
-      position: absolute;
+      position: relative;
+      top: 10px;
       left: 40%;
       width: 25%;
       animation: spin 4s;
     }
-        
+    
+    
     @keyframes spin {
         from {
             transform:rotate(0deg);
